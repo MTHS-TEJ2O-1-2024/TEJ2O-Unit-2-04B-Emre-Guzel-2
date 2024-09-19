@@ -6,9 +6,6 @@ This module is a Micro:bit MicroPython program that measures the temperature.
 
 from microbit import *
 
-
-
-
 while True:
 
     if button_a.is_pressed():
