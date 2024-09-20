@@ -9,8 +9,6 @@ from microbit import *
 while True:
 
     if button_a.is_pressed():
-        
-        temperature = temperature()
+        temp = temperature()
 
-        display.scroll("The temperature is " + str(temperature)+'C')
-
+    display.scroll("The temperature is " + str(temperature) + "C")
